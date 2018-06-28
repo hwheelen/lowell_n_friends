@@ -14,8 +14,9 @@ import csv
 # For example, if your identifier field is called 'XYZ', then change the line
 # below to _NAME_FIELD = 'XYZ'
 LAYER_NAME = "Lowell_Tracts"
-FILEPATH='/home/hannah/Desktop/Mass/'
+FILEPATH='./Lowell/'
 _NAME_FIELD = 'GEOID10'
+_NEIGHBORS_FIELD = 'NEIGHBORS'
 _POP_FIELDS = {'tot_pop': 'DP0080001', 'white' : 'DP0080003', 'black' : 'DP0080004', 'asian' : 'DP0080006'}
 ADJ_LAYER_NAME = LAYER_NAME+"_Adj"
 
@@ -27,25 +28,24 @@ for layerQ in layers:
 
 #start editing layer
 layer.startEditing()
-if not "NEIGHBORS" in [field.name() for field in layer.pendingFields()]:
-    layer.dataProvider().addAttributes([QgsField(NEIGHBORS, QVariant.String),])
+if not _NEIGHBORS_FIELD in [field.name() for field in layer.pendingFields()]:
+    layer.dataProvider().addAttributes([QgsField(_NEIGHBORS_FIELD, QVariant.String),])
     layer.updateFields()
     
 ## Create a dictionary of all nodes
 nodes = [node for node in layer.getFeatures()]
 map = {node.id(): node for node in nodes}
-node2 = map[neighbor.id()]
+
 
 # Build a spatial index
 index = QgsSpatialIndex()
-for node in node:
-    index.insert(node)
+for node in nodes:
+    index.insertFeature(node)
 
 # create a new memory layer
 v_layer = QgsVectorLayer("LineString", ADJ_LAYER_NAME, "memory")
 pr = v_layer.dataProvider()
-for node in node.values:
-    node.append(int(node[_NAME_FIELD]))
+for node in nodes:
     geom = node.geometry()
     rad = numpy.sqrt(geom.area())/5
     start_pt = geom.centroid().asPoint()
@@ -53,39 +53,38 @@ for node in node.values:
     # We use spatial index to find the features intersecting the bounding box
     # of the current feature. This will narrow down the features that we need
     # to check neighboring features.
-    neighbors = index.intersects(geom.buffer(rad,2).boundingBox())
+    neighbor_ids = index.intersects(geom.buffer(rad,2).boundingBox())
     # Initalize neighbors list and sum
     edges = []
-    for neighbor in neighbors:
+    neighbors = []
+    for id in neighbor_ids:
         # Look up the feature from the dictionary
-        intersecting_node = nodes[neighbors]
-        intersecting_buff=intersecting_node.geometry().buffer(rad,2)
+        neighbor = map[id]
+        neighborhood = neighbor.geometry().buffer(rad,2)
 
         # For our purpose we consider a feature as 'neighbor' if it touches or
         # intersects a feature. We use the 'disjoint' predicate to satisfy
         # these conditions. So if a feature is not disjoint, it is a neighbor.
         #if (f != intersecting_f and myAdj(intersecting_f.geometry(),geom)):
-        if (node != intersecting_node and intersecting_buff.intersects(geom)):
-            #neighbors.append(int(intersecting_f[_NAME_FIELD]))
-            Feature_Edges.append([int(node[_NAME_FIELD]),int(intersecting_node[_NAME_FIELD])])
-            end_pt=intersecting_node.geometry().centroid().asPoint()
-            line=QgsGeometry.fromPolyline([start_pt,end_pt])
+        if (node != neighbor and neighborhood.intersects(geom)):
+            neighbors.append(int(neighbor[_NAME_FIELD]))
+            edges.append([int(node[_NAME_FIELD]),int(neighbor[_NAME_FIELD])])
+            end_pt=neighbor.geometry().centroid().asPoint()
+            edge=QgsGeometry.fromPolyline([start_pt,end_pt])
             # create a new feature
             seg = QgsFeature()
             # add the geometry to the feature, 
-            seg.setGeometry(QgsGeometry.fromPolyline([start_pt, end_pt]))
+            seg.setGeometry(edge)
             # ...it was here that you can add attributes, after having defined....
             # add the geometry to the layer
             pr.addFeatures( [ seg ] )
             # update extent of the layer (not necessary)
             v_layer.updateExtents()
-#    f[_NEW_NEIGHBORS_FIELD] = ''.join(str(x) for x in neighbors)
+    node[_NEIGHBORS_FIELD] = ','.join(str(x) for x in neighbors)
     #Feature_NBS.append(neighbors)
     # Update the layer with new attribute values.
-    layer.updateFeature(f)
+    layer.updateFeature(node)
 layer.commitChanges()
 print ('Processing complete.')
 
 QgsMapLayerRegistry.instance().addMapLayers([v_layer])
-
-numpy.savetxt(FILEPATH+'\\SC_Buff_List_2010.txt',Feature_List , fmt='%d')
