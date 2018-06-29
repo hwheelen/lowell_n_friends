@@ -5,37 +5,40 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Lowell_Boundary20180626154737543" source="/home/hannah/projects/Massachusetts/Lowell/Lowell_Boundary.shp" name="Lowell_Boundary">
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Unchecked" id="Lowell_Tracts_Adj20180626235042092" source="memory?geometry=LineString" name="Lowell_Tracts_Adj">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Everette_Boundary20180626154414591" source="/home/hannah/projects/Massachusetts/Everette/Everette_Boundary.shp" name="Everette_Boundary">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Lowell_Boundary20180626154737543" source="/home/hannah/Desktop/Mass/Lowell_Boundary.shp" name="Lowell_Boundary">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="mass_census_block_2010_220180628144045740" source="file:///home/hannah/projects/Massachusetts/state/mass_census_block_group_2010.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="mass_census_block_2010_2">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Everette_Boundary20180626154414591" source="/home/hannah/Desktop/Mass/Everette_Boundary.shp" name="Everette_Boundary">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="mass_census_block_201020180628144233439" source="file:///home/hannah/projects/Massachusetts/state/mass_census_block_2010.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="mass_census_block_2010">
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="mass_census_block_2010_220180628144045740" source="file:///home/hannah/Desktop/Mass/census_data/mass_census_block_2010_2.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="mass_census_block_2010_2">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Everette_Blocks20180628102818126" source="/home/hannah/projects/Massachusetts/Everette/Everette_Blocks.shp" name="Everette_Blocks">
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="mass_census_block_201020180628144233439" source="file:///home/hannah/Desktop/Mass/census_data/mass_census_block_2010.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="mass_census_block_2010">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Lowell_Blocks20180628102810433" source="/home/hannah/projects/Massachusetts/Lowell/Lowell_Blocks.shp" name="Lowell_Blocks">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Everette_Blocks20180628102818126" source="/home/hannah/Desktop/Mass/Everette_Blocks.shp" name="Everette_Blocks">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Lowell_Block_Groups20180628103403100" source="/home/hannah/projects/Massachusetts/Lowell/Lowell_Block_Groups.shp" name="Lowell_Block_Groups">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Lowell_Blocks20180628102810433" source="/home/hannah/Desktop/Mass/Lowell_Blocks.shp" name="Lowell_Blocks">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Everette_Block_Groups20180628103344263" source="/home/hannah/projects/Massachusetts/Everette/Everette_Block_Groups.shp" name="Everette_Block_Groups">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Lowell_Tracts20180626211016780" source="/home/hannah/Desktop/Mass/Lowell_Tracts.shp" name="Lowell_Tracts">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="Lowell_Tracts_Adj20180628190039839" source="LineString" name="Lowell_Tracts_Adj">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Everette_Tracts20180626211051672" source="/home/hannah/Desktop/Mass/Everette_Tracts.shp" name="Everette_Tracts">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Lowell_Tracts20180626211016780" source="/home/hannah/projects/Massachusetts/Lowell/Lowell_Tracts.shp" name="Lowell_Tracts">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Everette_Block_Groups20180628103344263" source="/home/hannah/Desktop/Mass/Everette_Block_Groups.shp" name="Everette_Block_Groups">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Everette_Tracts20180626211051672" source="/home/hannah/projects/Massachusetts/Everette/Everette_Tracts.shp" name="Everette_Tracts">
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="CEN2010_BG_SF1_POP_RACE20180628165129461" source="file:///home/hannah/Desktop/Mass/census_data/CEN2010_BG_SF1_POP_RACE.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="CEN2010_BG_SF1_POP_RACE">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Lowell_Block_Groups20180628103403100" source="/home/hannah/Desktop/Mass/Lowell_Block_Groups.shp" name="Lowell_Block_Groups">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -43,10 +46,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-71.39135165000001848</xmin>
-      <ymin>42.37959802499999284</ymin>
-      <xmax>-71.01920434999991016</xmax>
-      <ymax>42.67351297500006524</ymax>
+      <xmin>-71.38525615000000357</xmin>
+      <ymin>42.60540962500000006</ymin>
+      <xmax>-71.26840584999999351</xmax>
+      <ymax>42.6680053749999999</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -64,13 +67,8 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Everette_Boundary20180626154414591"/>
-      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lowell_Tracts_Adj20180628190039839"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Everette_Blocks20180628102818126"/>
-      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lowell_Boundary20180626154737543"/>
-      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lowell_Tracts_Adj20180626235042092"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lowell_Block_Groups20180628103403100"/>
-      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Everette_Tracts20180626211051672"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lowell_Tracts20180626211016780"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Everette_Block_Groups20180628103344263"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lowell_Blocks20180628102810433"/>
@@ -82,16 +80,22 @@
       <item>Lowell_Boundary20180626154737543</item>
       <item>Lowell_Tracts20180626211016780</item>
       <item>Everette_Tracts20180626211051672</item>
+      <item>Lowell_Tracts_Adj20180626235042092</item>
       <item>Lowell_Blocks20180628102810433</item>
       <item>Everette_Blocks20180628102818126</item>
       <item>Everette_Block_Groups20180628103344263</item>
       <item>Lowell_Block_Groups20180628103403100</item>
       <item>mass_census_block_2010_220180628144045740</item>
       <item>mass_census_block_201020180628144233439</item>
-      <item>Lowell_Tracts_Adj20180628190039839</item>
+      <item>CEN2010_BG_SF1_POP_RACE20180628165129461</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Lowell_Tracts_Adj" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Lowell_Tracts_Adj20180626235042092" visible="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Lowell_Boundary" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Lowell_Boundary20180626154737543" visible="0"/>
@@ -122,33 +126,212 @@
         <legendlayerfile isInOverview="0" layerid="Lowell_Blocks20180628102810433" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Lowell_Block_Groups" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Lowell_Tracts" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Lowell_Block_Groups20180628103403100" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Lowell_Tracts20180626211016780" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Everette_Block_Groups" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Everette_Tracts" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Everette_Block_Groups20180628103344263" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Everette_Tracts20180626211051672" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Lowell_Tracts_Adj" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Everette_Block_Groups" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Lowell_Tracts_Adj20180628190039839" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Everette_Block_Groups20180628103344263" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Lowell_Tracts" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CEN2010_BG_SF1_POP_RACE" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Lowell_Tracts20180626211016780" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="CEN2010_BG_SF1_POP_RACE20180628165129461" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Everette_Tracts" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Lowell_Block_Groups" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Everette_Tracts20180626211051672" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Lowell_Block_Groups20180628103403100" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>CEN2010_BG_SF1_POP_RACE20180628165129461</id>
+      <datasource>file:./Mass/census_data/CEN2010_BG_SF1_POP_RACE.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CEN2010_BG_SF1_POP_RACE</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="System">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="GEOID10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP_2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP_WHITE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP_BLACK">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP_NATV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP_ASN">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP_ISLND">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP_OTHER">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POP_MULTI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NOT_HISP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NH_WHITE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NH_BLACK">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NH_NATV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NH_ASN">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NH_ISLND">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NH_OTHER">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NH_MULTI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="HISP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="H_WHITE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="H_BLACK">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="H_NATV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="H_ASN">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="H_ISLND">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="H_OTHER">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="H_MULTI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="GEOID10" index="0" name=""/>
+        <alias field="POP_2010" index="1" name=""/>
+        <alias field="POP_WHITE" index="2" name=""/>
+        <alias field="POP_BLACK" index="3" name=""/>
+        <alias field="POP_NATV" index="4" name=""/>
+        <alias field="POP_ASN" index="5" name=""/>
+        <alias field="POP_ISLND" index="6" name=""/>
+        <alias field="POP_OTHER" index="7" name=""/>
+        <alias field="POP_MULTI" index="8" name=""/>
+        <alias field="NOT_HISP" index="9" name=""/>
+        <alias field="NH_WHITE" index="10" name=""/>
+        <alias field="NH_BLACK" index="11" name=""/>
+        <alias field="NH_NATV" index="12" name=""/>
+        <alias field="NH_ASN" index="13" name=""/>
+        <alias field="NH_ISLND" index="14" name=""/>
+        <alias field="NH_OTHER" index="15" name=""/>
+        <alias field="NH_MULTI" index="16" name=""/>
+        <alias field="HISP" index="17" name=""/>
+        <alias field="H_WHITE" index="18" name=""/>
+        <alias field="H_BLACK" index="19" name=""/>
+        <alias field="H_NATV" index="20" name=""/>
+        <alias field="H_ASN" index="21" name=""/>
+        <alias field="H_ISLND" index="22" name=""/>
+        <alias field="H_OTHER" index="23" name=""/>
+        <alias field="H_MULTI" index="24" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="102">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="GEOID10" expression=""/>
+        <default field="POP_2010" expression=""/>
+        <default field="POP_WHITE" expression=""/>
+        <default field="POP_BLACK" expression=""/>
+        <default field="POP_NATV" expression=""/>
+        <default field="POP_ASN" expression=""/>
+        <default field="POP_ISLND" expression=""/>
+        <default field="POP_OTHER" expression=""/>
+        <default field="POP_MULTI" expression=""/>
+        <default field="NOT_HISP" expression=""/>
+        <default field="NH_WHITE" expression=""/>
+        <default field="NH_BLACK" expression=""/>
+        <default field="NH_NATV" expression=""/>
+        <default field="NH_ASN" expression=""/>
+        <default field="NH_ISLND" expression=""/>
+        <default field="NH_OTHER" expression=""/>
+        <default field="NH_MULTI" expression=""/>
+        <default field="HISP" expression=""/>
+        <default field="H_WHITE" expression=""/>
+        <default field="H_BLACK" expression=""/>
+        <default field="H_NATV" expression=""/>
+        <default field="H_ASN" expression=""/>
+        <default field="H_ISLND" expression=""/>
+        <default field="H_OTHER" expression=""/>
+        <default field="H_MULTI" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>-71.38247400000000198</xmin>
@@ -157,7 +340,7 @@
         <ymax>42.66651499999999686</ymax>
       </extent>
       <id>Everette_Block_Groups20180628103344263</id>
-      <datasource>./Everette/Everette_Block_Groups.shp</datasource>
+      <datasource>./Mass/Everette_Block_Groups.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -261,7 +444,7 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
         <alias field="COUNTYFP" index="1" name=""/>
@@ -277,7 +460,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="4476485">
         <columns>
           <column width="-1" hidden="0" type="field" name="STATEFP"/>
           <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
@@ -292,10 +475,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -326,7 +509,7 @@
         <ymax>42.42415499999999895</ymax>
       </extent>
       <id>Everette_Blocks20180628102818126</id>
-      <datasource>./Everette/Everette_Blocks.shp</datasource>
+      <datasource>./Mass/Everette_Blocks.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -720,7 +903,6 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Sans Serif,10,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -746,7 +928,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="STATEFP10" index="0" name=""/>
         <alias field="COUNTYFP10" index="1" name=""/>
@@ -821,10 +1003,10 @@
           <column width="-1" hidden="0" type="field" name="mass_census_block_2010_H_MULTI"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -921,7 +1103,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>42.42420200000000108</ymax>
       </extent>
       <id>Everette_Boundary20180626154414591</id>
-      <datasource>./Everette/Everette_Boundary.shp</datasource>
+      <datasource>./Mass/Everette_Boundary.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1271,7 +1453,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>42.42415500000004158</ymax>
       </extent>
       <id>Everette_Tracts20180626211051672</id>
-      <datasource>./Everette/Everette_Tracts.shp</datasource>
+      <datasource>./Mass/Everette_Tracts.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2544,7 +2726,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>42.66651499999999686</ymax>
       </extent>
       <id>Lowell_Block_Groups20180628103403100</id>
-      <datasource>./Lowell/Lowell_Block_Groups.shp</datasource>
+      <datasource>./Mass/Lowell_Block_Groups.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2793,7 +2975,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Sans Serif,10,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -2819,7 +3000,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
         <alias field="COUNTYFP" index="1" name=""/>
@@ -2835,7 +3016,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="4476485">
         <columns>
           <column width="-1" hidden="0" type="field" name="STATEFP"/>
           <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
@@ -2850,10 +3031,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2973,7 +3154,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>42.66651499999999686</ymax>
       </extent>
       <id>Lowell_Blocks20180628102810433</id>
-      <datasource>./Lowell/Lowell_Blocks.shp</datasource>
+      <datasource>./Mass/Lowell_Blocks.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3351,7 +3532,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Sans Serif,10,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -3377,7 +3557,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="STATEFP10" index="0" name=""/>
         <alias field="COUNTYFP10" index="1" name=""/>
@@ -3415,7 +3595,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="102">
         <columns>
           <column width="-1" hidden="0" type="field" name="STATEFP10"/>
           <column width="-1" hidden="0" type="field" name="COUNTYFP10"/>
@@ -3452,10 +3632,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -3524,7 +3704,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>42.66651499999999686</ymax>
       </extent>
       <id>Lowell_Boundary20180626154737543</id>
-      <datasource>./Lowell/Lowell_Boundary.shp</datasource>
+      <datasource>./Mass/Lowell_Boundary.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3874,7 +4054,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>42.66651500000006081</ymax>
       </extent>
       <id>Lowell_Tracts20180626211016780</id>
-      <datasource>./Lowell/Lowell_Tracts.shp</datasource>
+      <datasource>./Mass/Lowell_Tracts.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5145,7 +5325,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "NAMELSAD10", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Lowell_Tracts_Adj20180628190039839</id>
+      <id>Lowell_Tracts_Adj20180626235042092</id>
       <datasource>memory?geometry=LineString</datasource>
       <keywordList>
         <value></value>
@@ -5181,7 +5361,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="88,60,186,255"/>
+              <prop k="line_color" v="220,32,211,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -5223,7 +5403,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases/>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -5231,10 +5411,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5248,7 +5428,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>mass_census_block_201020180628144233439</id>
-      <datasource>file:./state/mass_census_block_2010.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>file:./Mass/census_data/mass_census_block_2010.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5350,7 +5530,7 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="GEOID10" index="0" name=""/>
         <alias field="POP_2010_TOT" index="1" name=""/>
@@ -5381,13 +5561,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1514410144">
         <columns/>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5427,7 +5607,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>mass_census_block_2010_220180628144045740</id>
-      <datasource>file:./state/mass_census_block_group_2010.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>file:./Mass/census_data/mass_census_block_2010_2.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5453,10 +5633,10 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="GEOID10">
+        <edittype widgetv2type="TextEdit" name="BLOCKID10">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="POP_2010">
+        <edittype widgetv2type="TextEdit" name="POP_2010_TOT">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="POP_WHITE">
@@ -5480,7 +5660,7 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="POP_MULTI">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="NOT_HISP">
+        <edittype widgetv2type="TextEdit" name="NOT_HISP_TOT">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="NH_WHITE">
@@ -5529,10 +5709,10 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
-        <alias field="GEOID10" index="0" name=""/>
-        <alias field="POP_2010" index="1" name=""/>
+        <alias field="BLOCKID10" index="0" name=""/>
+        <alias field="POP_2010_TOT" index="1" name=""/>
         <alias field="POP_WHITE" index="2" name=""/>
         <alias field="POP_BLACK" index="3" name=""/>
         <alias field="POP_NATV" index="4" name=""/>
@@ -5540,7 +5720,7 @@ def my_form_open(dialog, layer, feature):
         <alias field="POP_ISLND" index="6" name=""/>
         <alias field="POP_OTHER" index="7" name=""/>
         <alias field="POP_MULTI" index="8" name=""/>
-        <alias field="NOT_HISP" index="9" name=""/>
+        <alias field="NOT_HISP_TOT" index="9" name=""/>
         <alias field="NH_WHITE" index="10" name=""/>
         <alias field="NH_BLACK" index="11" name=""/>
         <alias field="NH_NATV" index="12" name=""/>
@@ -5560,13 +5740,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="6357100">
         <columns/>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5576,8 +5756,8 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
       <defaults>
-        <default field="GEOID10" expression=""/>
-        <default field="POP_2010" expression=""/>
+        <default field="BLOCKID10" expression=""/>
+        <default field="POP_2010_TOT" expression=""/>
         <default field="POP_WHITE" expression=""/>
         <default field="POP_BLACK" expression=""/>
         <default field="POP_NATV" expression=""/>
@@ -5585,7 +5765,7 @@ def my_form_open(dialog, layer, feature):
         <default field="POP_ISLND" expression=""/>
         <default field="POP_OTHER" expression=""/>
         <default field="POP_MULTI" expression=""/>
-        <default field="NOT_HISP" expression=""/>
+        <default field="NOT_HISP_TOT" expression=""/>
         <default field="NH_WHITE" expression=""/>
         <default field="NH_BLACK" expression=""/>
         <default field="NH_NATV" expression=""/>
@@ -5631,16 +5811,18 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>Everette_Block_Groups20180628103344263</value>
-        <value>Everette_Blocks20180628102818126</value>
         <value>Everette_Boundary20180626154414591</value>
         <value>Everette_Tracts20180626211051672</value>
-        <value>Lowell_Block_Groups20180628103403100</value>
-        <value>Lowell_Blocks20180628102810433</value>
         <value>Lowell_Boundary20180626154737543</value>
         <value>Lowell_Tracts20180626211016780</value>
+        <value>Lowell_Tracts_Adj20180626235042092</value>
+        <value>Lowell_Blocks20180628102810433</value>
+        <value>Everette_Blocks20180628102818126</value>
+        <value>Everette_Block_Groups20180628103344263</value>
+        <value>Lowell_Block_Groups20180628103403100</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -5661,8 +5843,10 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -5675,6 +5859,7 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
