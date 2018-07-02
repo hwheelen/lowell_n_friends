@@ -17,7 +17,7 @@ LAYER_NAME = "Lowell_Tracts"
 FILEPATH='./Lowell/'
 _NAME_FIELD = 'GEOID10'
 _NEIGHBORS_FIELD = 'NEIGHBORS'
-_POP_FIELDS = {'tot_pop': 'DP0080001', 'white' : 'DP0080003', 'black' : 'DP0080004', 'asian' : 'DP0080006'}
+_POP_FIELDS = {'tot_pop': 'DP0080001', 'white' : 'DP0080003', 'black' : 'DP0080004', 'asian' : 'DP0080006', "hispanic" : "DP0100002"}
 ADJ_LAYER_NAME = LAYER_NAME+"_Adj"
 
 # choose a layer
